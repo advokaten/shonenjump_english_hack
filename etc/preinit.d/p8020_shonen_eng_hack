@@ -1,0 +1,4 @@
+if [ "$sftype" = "hvcj" ]; then
+  mount_bind "$mountpoint/usr/share/ui/hvc/resources/strings/usa_en/strings.lng" "$mountpoint/usr/share/ui/hvc/resources/strings/jpn_ja/strings.lng"
+  overmount "/usr/share/ui/hvc/resources/fonts"
+fi
